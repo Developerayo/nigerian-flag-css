@@ -2,9 +2,10 @@
 <html lang="en" >
 <head>
 <meta charset="UTF-8">
-<title>Nigerian Flag</title>
+<title>Nigerian Flag in CSS</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <style>
+  
 html,
 body {
 height: 100%;
@@ -13,18 +14,21 @@ text-align: center;
 -webkit-animation: background 2s cubic-bezier(,0,0,1) infinite;
 animation: background 2s cubic-bezier(1,0,0,1) infinite;  
 }
+  
 @-webkit-keyframes background {
   0% { background-color: #8FBC8F; }
   33% { background-color:#3CB371; }  
   67% { background-color: #6B8E23; }
   100% { background-color:  #9ACD32; }
 }
+  
 @keyframes background {
   0% { background-color: #8FBC8F; }
   33% { background-color: #3CB371; }  
   67% { background-color: #6B8E23; }
   100% { background-color:  #9ACD32; }
 }
+  
 .nigerian-flag{
   width: 13em;
   height: 8em;
@@ -34,10 +38,12 @@ animation: background 2s cubic-bezier(1,0,0,1) infinite;
   box-shadow: none;
   transition: width 1.5s, height 1.5s, transform 1.5s;
 }
+  
 .nigerian-flag {
   content: attr(class);
   line-height: 18.75em;
 }
+  
 .nigerian-flag:hover {
   width: 20em;
   height: 15em;
@@ -45,14 +51,16 @@ animation: background 2s cubic-bezier(1,0,0,1) infinite;
   -webkit-transform: rotate(180deg);
 
 }
+  
 .nigerian-flag {
   background: linear-gradient(90deg, #008651 33.3%, white 33.3%, white 66.6%, #008651 66.6%);
   border-radius: 10px;
 }
+  
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <h1>Nigerian Flag in CSS</h1>
-<div class='nigerian-flag'></div>
+<div class="nigerian-flag'></div>
 </body>
 </html>
