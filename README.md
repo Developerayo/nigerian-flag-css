@@ -1,2 +1,1 @@
-# nigerian-flag-css
-Animated Nigeran flag with CSS Animation
+# The Nigerian Flag in CSS
