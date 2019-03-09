@@ -1,4 +1,4 @@
-# Animated Nigeran flag using CSS
+# Animated Nigerian flag using CSS
 ## [Demo Here](https://developerayo.github.io/nigerian-flag-css/)
 
 
